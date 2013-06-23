@@ -1,0 +1,11 @@
+# hideen/temp files
+.DS_Store
+*.swp
+*~.nib
+
+# build dir
+build/
+
+# Xcode Project Files Except for the project file
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
