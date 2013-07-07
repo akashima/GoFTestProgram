@@ -23,6 +23,12 @@
 		2B5D365A17643F7900AE2616 /* BookShelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D365917643F7900AE2616 /* BookShelf.m */; };
 		2B5D365D176440F800AE2616 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D365C176440F800AE2616 /* Book.m */; };
 		2B5D366017644CAF00AE2616 /* BookShelfEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D365F17644CAF00AE2616 /* BookShelfEnumerator.m */; };
+		2B78A34E17892A4F00DBC118 /* ConcreateCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78A34317892A4F00DBC118 /* ConcreateCreater.m */; };
+		2B78A34F17892A4F00DBC118 /* Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78A34517892A4F00DBC118 /* Creator.m */; };
+		2B78A35017892A4F00DBC118 /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78A34717892A4F00DBC118 /* FactoryViewController.m */; };
+		2B78A35117892A4F00DBC118 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78A34917892A4F00DBC118 /* Product.m */; };
+		2B78A35217892A4F00DBC118 /* ProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78A34B17892A4F00DBC118 /* ProductA.m */; };
+		2B78A35317892A4F00DBC118 /* ProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78A34D17892A4F00DBC118 /* ProductB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +59,18 @@
 		2B5D365C176440F800AE2616 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		2B5D365E17644CAF00AE2616 /* BookShelfEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfEnumerator.h; sourceTree = "<group>"; };
 		2B5D365F17644CAF00AE2616 /* BookShelfEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfEnumerator.m; sourceTree = "<group>"; };
+		2B78A34217892A4F00DBC118 /* ConcreateCreater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreateCreater.h; sourceTree = "<group>"; };
+		2B78A34317892A4F00DBC118 /* ConcreateCreater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreateCreater.m; sourceTree = "<group>"; };
+		2B78A34417892A4F00DBC118 /* Creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creator.h; sourceTree = "<group>"; };
+		2B78A34517892A4F00DBC118 /* Creator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creator.m; sourceTree = "<group>"; };
+		2B78A34617892A4F00DBC118 /* FactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryViewController.h; sourceTree = "<group>"; };
+		2B78A34717892A4F00DBC118 /* FactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
+		2B78A34817892A4F00DBC118 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		2B78A34917892A4F00DBC118 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		2B78A34A17892A4F00DBC118 /* ProductA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductA.h; sourceTree = "<group>"; };
+		2B78A34B17892A4F00DBC118 /* ProductA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductA.m; sourceTree = "<group>"; };
+		2B78A34C17892A4F00DBC118 /* ProductB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductB.h; sourceTree = "<group>"; };
+		2B78A34D17892A4F00DBC118 /* ProductB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +125,7 @@
 				2B1F85B81776DA7400639517 /* Observer */,
 				2B1F85B91776DA7400639517 /* Proxy */,
 				2B1F85BF1776E36300639517 /* Singleton */,
+				2B78A34117892A4F00DBC118 /* Factory */,
 				2B5D36391764262400AE2616 /* Supporting Files */,
 				2B5D36311764262400AE2616 /* Frameworks */,
 				2B5D36301764262400AE2616 /* Products */,
@@ -169,6 +188,26 @@
 			);
 			name = Iterator;
 			path = GoFTestProgram/Iterator;
+			sourceTree = "<group>";
+		};
+		2B78A34117892A4F00DBC118 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				2B78A34217892A4F00DBC118 /* ConcreateCreater.h */,
+				2B78A34317892A4F00DBC118 /* ConcreateCreater.m */,
+				2B78A34417892A4F00DBC118 /* Creator.h */,
+				2B78A34517892A4F00DBC118 /* Creator.m */,
+				2B78A34617892A4F00DBC118 /* FactoryViewController.h */,
+				2B78A34717892A4F00DBC118 /* FactoryViewController.m */,
+				2B78A34817892A4F00DBC118 /* Product.h */,
+				2B78A34917892A4F00DBC118 /* Product.m */,
+				2B78A34A17892A4F00DBC118 /* ProductA.h */,
+				2B78A34B17892A4F00DBC118 /* ProductA.m */,
+				2B78A34C17892A4F00DBC118 /* ProductB.h */,
+				2B78A34D17892A4F00DBC118 /* ProductB.m */,
+			);
+			name = Factory;
+			path = GoFTestProgram/Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +284,12 @@
 				2B1F85BD1776DAE900639517 /* ObserverViewController.m in Sources */,
 				2B1F85C31776E3E400639517 /* SingletonViewController.m in Sources */,
 				2B1F85C71776E4AB00639517 /* SingletonObject.m in Sources */,
+				2B78A34E17892A4F00DBC118 /* ConcreateCreater.m in Sources */,
+				2B78A34F17892A4F00DBC118 /* Creator.m in Sources */,
+				2B78A35017892A4F00DBC118 /* FactoryViewController.m in Sources */,
+				2B78A35117892A4F00DBC118 /* Product.m in Sources */,
+				2B78A35217892A4F00DBC118 /* ProductA.m in Sources */,
+				2B78A35317892A4F00DBC118 /* ProductB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
