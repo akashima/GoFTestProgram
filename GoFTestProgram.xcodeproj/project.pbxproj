@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0346BE17A4948B00107691 /* TemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0346BD17A4948B00107691 /* TemplateMethodViewController.m */; };
+		2B0346C117A49B6300107691 /* Life.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0346C017A49B6300107691 /* Life.m */; };
+		2B0346C417A49C0C00107691 /* GoodLife.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0346C317A49C0C00107691 /* GoodLife.m */; };
 		2B1F85B71776D96000639517 /* IteratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F85B61776D96000639517 /* IteratorViewController.m */; };
 		2B1F85BD1776DAE900639517 /* ObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F85BB1776DAE900639517 /* ObserverViewController.m */; };
 		2B1F85C31776E3E400639517 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F85C11776E3E400639517 /* SingletonViewController.m */; };
@@ -32,6 +35,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B0346BC17A4948B00107691 /* TemplateMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateMethodViewController.h; sourceTree = "<group>"; };
+		2B0346BD17A4948B00107691 /* TemplateMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateMethodViewController.m; sourceTree = "<group>"; };
+		2B0346BF17A49B6300107691 /* Life.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Life.h; sourceTree = "<group>"; };
+		2B0346C017A49B6300107691 /* Life.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Life.m; sourceTree = "<group>"; };
+		2B0346C217A49C0C00107691 /* GoodLife.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodLife.h; sourceTree = "<group>"; };
+		2B0346C317A49C0C00107691 /* GoodLife.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodLife.m; sourceTree = "<group>"; };
 		2B1F85B51776D96000639517 /* IteratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IteratorViewController.h; sourceTree = "<group>"; };
 		2B1F85B61776D96000639517 /* IteratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IteratorViewController.m; sourceTree = "<group>"; };
 		2B1F85BA1776DAE900639517 /* ObserverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverViewController.h; sourceTree = "<group>"; };
@@ -87,6 +96,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B0346BB17A4943300107691 /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				2B0346BC17A4948B00107691 /* TemplateMethodViewController.h */,
+				2B0346BD17A4948B00107691 /* TemplateMethodViewController.m */,
+				2B0346BF17A49B6300107691 /* Life.h */,
+				2B0346C017A49B6300107691 /* Life.m */,
+				2B0346C217A49C0C00107691 /* GoodLife.h */,
+				2B0346C317A49C0C00107691 /* GoodLife.m */,
+			);
+			name = TemplateMethod;
+			path = GoFTestProgram/TemplateMethod;
+			sourceTree = "<group>";
+		};
 		2B1F85B81776DA7400639517 /* Observer */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +149,7 @@
 				2B1F85B91776DA7400639517 /* Proxy */,
 				2B1F85BF1776E36300639517 /* Singleton */,
 				2B78A34117892A4F00DBC118 /* Factory */,
+				2B0346BB17A4943300107691 /* TemplateMethod */,
 				2B5D36391764262400AE2616 /* Supporting Files */,
 				2B5D36311764262400AE2616 /* Frameworks */,
 				2B5D36301764262400AE2616 /* Products */,
@@ -290,6 +314,9 @@
 				2B78A35117892A4F00DBC118 /* Product.m in Sources */,
 				2B78A35217892A4F00DBC118 /* ProductA.m in Sources */,
 				2B78A35317892A4F00DBC118 /* ProductB.m in Sources */,
+				2B0346BE17A4948B00107691 /* TemplateMethodViewController.m in Sources */,
+				2B0346C117A49B6300107691 /* Life.m in Sources */,
+				2B0346C417A49C0C00107691 /* GoodLife.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
