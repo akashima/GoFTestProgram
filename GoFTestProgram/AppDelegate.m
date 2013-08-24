@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "IteratorViewController.h"
 #import "ObserverViewController.h"
+#import "ProxyViewController.h"
 #import "SingletonViewController.h"
 #import "FactoryViewController.h"
 #import "TemplateMethodViewController.h"
@@ -31,6 +32,7 @@
 
 //	IteratorViewController *viewController = [[IteratorViewController alloc] init];
 //	ObserverViewController *viewController = [[ObserverViewController alloc] init];
+//	ProxyViewController *viewController = [ProxyViewController alloc] init];
 //	SingletonViewController *viewController = [[SingletonViewController alloc] init];
 //	FactoryViewController *viewController = [[FactoryViewController alloc] init];
 //	TemplateMethodViewController *viewController = [[TemplateMethodViewController alloc] init];

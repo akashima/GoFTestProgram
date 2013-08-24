@@ -39,6 +39,9 @@
 		2B78B0C917C88B14000A647F /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78B0C817C88B14000A647F /* Mediator.m */; };
 		2B78B0CC17C88B38000A647F /* Collegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78B0CB17C88B38000A647F /* Collegue.m */; };
 		2B78B0CF17C8900E000A647F /* APatternCollegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78B0CE17C8900E000A647F /* APatternCollegue.m */; };
+		2BD097C417C89FF7006C391A /* DoSomeThing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097BF17C89FF7006C391A /* DoSomeThing.m */; };
+		2BD097C517C89FF7006C391A /* DynamicProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097C117C89FF7006C391A /* DynamicProxy.m */; };
+		2BD097C617C89FF7006C391A /* ProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097C317C89FF7006C391A /* ProxyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +104,12 @@
 		2B78B0CB17C88B38000A647F /* Collegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collegue.m; sourceTree = "<group>"; };
 		2B78B0CD17C8900E000A647F /* APatternCollegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APatternCollegue.h; sourceTree = "<group>"; };
 		2B78B0CE17C8900E000A647F /* APatternCollegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APatternCollegue.m; sourceTree = "<group>"; };
+		2BD097BE17C89FF7006C391A /* DoSomeThing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoSomeThing.h; sourceTree = "<group>"; };
+		2BD097BF17C89FF7006C391A /* DoSomeThing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoSomeThing.m; sourceTree = "<group>"; };
+		2BD097C017C89FF7006C391A /* DynamicProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicProxy.h; sourceTree = "<group>"; };
+		2BD097C117C89FF7006C391A /* DynamicProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicProxy.m; sourceTree = "<group>"; };
+		2BD097C217C89FF7006C391A /* ProxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyViewController.h; sourceTree = "<group>"; };
+		2BD097C317C89FF7006C391A /* ProxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +153,12 @@
 		2B1F85B91776DA7400639517 /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
+				2BD097BE17C89FF7006C391A /* DoSomeThing.h */,
+				2BD097BF17C89FF7006C391A /* DoSomeThing.m */,
+				2BD097C017C89FF7006C391A /* DynamicProxy.h */,
+				2BD097C117C89FF7006C391A /* DynamicProxy.m */,
+				2BD097C217C89FF7006C391A /* ProxyViewController.h */,
+				2BD097C317C89FF7006C391A /* ProxyViewController.m */,
 			);
 			name = Proxy;
 			path = GoFTestProgram/Proxy;
@@ -355,6 +370,7 @@
 				2B5D363F1764262400AE2616 /* main.m in Sources */,
 				2B5D36431764262400AE2616 /* AppDelegate.m in Sources */,
 				2B5D365A17643F7900AE2616 /* BookShelf.m in Sources */,
+				2BD097C417C89FF7006C391A /* DoSomeThing.m in Sources */,
 				2B5449C017C0FA5C0006F602 /* Flyweights.m in Sources */,
 				2B5D365D176440F800AE2616 /* Book.m in Sources */,
 				2B78B0CC17C88B38000A647F /* Collegue.m in Sources */,
@@ -368,9 +384,11 @@
 				2B1F85C31776E3E400639517 /* SingletonViewController.m in Sources */,
 				2B1F85C71776E4AB00639517 /* SingletonObject.m in Sources */,
 				2B78A34E17892A4F00DBC118 /* ConcreateCreater.m in Sources */,
+				2BD097C517C89FF7006C391A /* DynamicProxy.m in Sources */,
 				2B78A34F17892A4F00DBC118 /* Creator.m in Sources */,
 				2B78A35017892A4F00DBC118 /* FactoryViewController.m in Sources */,
 				2B78A35117892A4F00DBC118 /* Product.m in Sources */,
+				2BD097C617C89FF7006C391A /* ProxyViewController.m in Sources */,
 				2B78A35217892A4F00DBC118 /* ProductA.m in Sources */,
 				2B78A35317892A4F00DBC118 /* ProductB.m in Sources */,
 				2B0346BE17A4948B00107691 /* TemplateMethodViewController.m in Sources */,
