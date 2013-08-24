@@ -12,6 +12,8 @@
 #import "SingletonViewController.h"
 #import "FactoryViewController.h"
 #import "TemplateMethodViewController.h"
+#import "FlyweightViewController.h"
+#import "MediatorViewController.h"
 
 @implementation AppDelegate
 
@@ -31,7 +33,9 @@
 //	ObserverViewController *viewController = [[ObserverViewController alloc] init];
 //	SingletonViewController *viewController = [[SingletonViewController alloc] init];
 //	FactoryViewController *viewController = [[FactoryViewController alloc] init];
-	TemplateMethodViewController *viewController = [[TemplateMethodViewController alloc] init];
+//	TemplateMethodViewController *viewController = [[TemplateMethodViewController alloc] init];
+//	FlyweightViewController *viewController = [[FlyweightViewController alloc] init];
+	MediatorViewController *viewController = [[MediatorViewController alloc] init];
 	[_window setRootViewController:viewController];
 	[viewController.view setFrame:CGRectMake(0, 0, [[UIScreen mainScreen] applicationFrame].size.width, [[UIScreen mainScreen] applicationFrame].size.height)];
 	[viewController.view setBackgroundColor:[UIColor redColor]];

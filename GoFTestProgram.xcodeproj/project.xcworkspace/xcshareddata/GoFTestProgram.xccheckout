@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5762FE4B-889C-4A06-9D2A-73CA8C6072EC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GoFTestProgram</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>527DAC38-B56B-4F7E-83FE-D2A7B0BB6753</key>
+		<string>http://vritra.local/repos/GoFTestProgram.git/</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GoFTestProgram.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>527DAC38-B56B-4F7E-83FE-D2A7B0BB6753</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://vritra.local/repos/GoFTestProgram.git/</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>527DAC38-B56B-4F7E-83FE-D2A7B0BB6753</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>527DAC38-B56B-4F7E-83FE-D2A7B0BB6753</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GoFTestProgram</string>
+		</dict>
+	</array>
+</dict>
+</plist>
