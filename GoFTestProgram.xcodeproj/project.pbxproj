@@ -39,6 +39,12 @@
 		2B78B0C917C88B14000A647F /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78B0C817C88B14000A647F /* Mediator.m */; };
 		2B78B0CC17C88B38000A647F /* Collegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78B0CB17C88B38000A647F /* Collegue.m */; };
 		2B78B0CF17C8900E000A647F /* APatternCollegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B78B0CE17C8900E000A647F /* APatternCollegue.m */; };
+		2B95930317CA27F80076BFAA /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B95930217CA27F80076BFAA /* Command.m */; };
+		2B95930617CA28340076BFAA /* Beaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B95930517CA28340076BFAA /* Beaker.m */; };
+		2B95930C17CA3A390076BFAA /* AddWaterrCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B95930B17CA3A390076BFAA /* AddWaterrCommand.m */; };
+		2B95930F17CA3AD40076BFAA /* MakeSaltWaterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B95930E17CA3AD40076BFAA /* MakeSaltWaterCommand.m */; };
+		2B95931217CA3BB50076BFAA /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B95931117CA3BB50076BFAA /* CommandViewController.m */; };
+		2B95931517CA47F10076BFAA /* AddSaltCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B95931417CA47F10076BFAA /* AddSaltCommand.m */; };
 		2BD097C417C89FF7006C391A /* DoSomeThing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097BF17C89FF7006C391A /* DoSomeThing.m */; };
 		2BD097C517C89FF7006C391A /* DynamicProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097C117C89FF7006C391A /* DynamicProxy.m */; };
 		2BD097C617C89FF7006C391A /* ProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097C317C89FF7006C391A /* ProxyViewController.m */; };
@@ -104,6 +110,18 @@
 		2B78B0CB17C88B38000A647F /* Collegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collegue.m; sourceTree = "<group>"; };
 		2B78B0CD17C8900E000A647F /* APatternCollegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APatternCollegue.h; sourceTree = "<group>"; };
 		2B78B0CE17C8900E000A647F /* APatternCollegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APatternCollegue.m; sourceTree = "<group>"; };
+		2B95930117CA27F80076BFAA /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		2B95930217CA27F80076BFAA /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		2B95930417CA28340076BFAA /* Beaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beaker.h; sourceTree = "<group>"; };
+		2B95930517CA28340076BFAA /* Beaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beaker.m; sourceTree = "<group>"; };
+		2B95930A17CA3A390076BFAA /* AddWaterrCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWaterrCommand.h; sourceTree = "<group>"; };
+		2B95930B17CA3A390076BFAA /* AddWaterrCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddWaterrCommand.m; sourceTree = "<group>"; };
+		2B95930D17CA3AD40076BFAA /* MakeSaltWaterCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeSaltWaterCommand.h; sourceTree = "<group>"; };
+		2B95930E17CA3AD40076BFAA /* MakeSaltWaterCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeSaltWaterCommand.m; sourceTree = "<group>"; };
+		2B95931017CA3BB50076BFAA /* CommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandViewController.h; sourceTree = "<group>"; };
+		2B95931117CA3BB50076BFAA /* CommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
+		2B95931317CA47F10076BFAA /* AddSaltCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSaltCommand.h; sourceTree = "<group>"; };
+		2B95931417CA47F10076BFAA /* AddSaltCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSaltCommand.m; sourceTree = "<group>"; };
 		2BD097BE17C89FF7006C391A /* DoSomeThing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoSomeThing.h; sourceTree = "<group>"; };
 		2BD097BF17C89FF7006C391A /* DoSomeThing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoSomeThing.m; sourceTree = "<group>"; };
 		2BD097C017C89FF7006C391A /* DynamicProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicProxy.h; sourceTree = "<group>"; };
@@ -188,6 +206,7 @@
 				2B0346BB17A4943300107691 /* TemplateMethod */,
 				2BAA23DB17B7AD1D00B668CD /* Flyweight */,
 				2BE3080317C73EE7003AF54C /* Mediator */,
+				2B95930017CA26C80076BFAA /* Command */,
 				2B5D36391764262400AE2616 /* Supporting Files */,
 				2B5D36311764262400AE2616 /* Frameworks */,
 				2B5D36301764262400AE2616 /* Products */,
@@ -270,6 +289,26 @@
 			);
 			name = Factory;
 			path = GoFTestProgram/Factory;
+			sourceTree = "<group>";
+		};
+		2B95930017CA26C80076BFAA /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				2B95930117CA27F80076BFAA /* Command.h */,
+				2B95930217CA27F80076BFAA /* Command.m */,
+				2B95931317CA47F10076BFAA /* AddSaltCommand.h */,
+				2B95931417CA47F10076BFAA /* AddSaltCommand.m */,
+				2B95930A17CA3A390076BFAA /* AddWaterrCommand.h */,
+				2B95930B17CA3A390076BFAA /* AddWaterrCommand.m */,
+				2B95930D17CA3AD40076BFAA /* MakeSaltWaterCommand.h */,
+				2B95930E17CA3AD40076BFAA /* MakeSaltWaterCommand.m */,
+				2B95930417CA28340076BFAA /* Beaker.h */,
+				2B95930517CA28340076BFAA /* Beaker.m */,
+				2B95931017CA3BB50076BFAA /* CommandViewController.h */,
+				2B95931117CA3BB50076BFAA /* CommandViewController.m */,
+			);
+			name = Command;
+			path = GoFTestProgram/Command;
 			sourceTree = "<group>";
 		};
 		2BAA23DB17B7AD1D00B668CD /* Flyweight */ = {
@@ -367,7 +406,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B95931217CA3BB50076BFAA /* CommandViewController.m in Sources */,
+				2B95931517CA47F10076BFAA /* AddSaltCommand.m in Sources */,
 				2B5D363F1764262400AE2616 /* main.m in Sources */,
+				2B95930F17CA3AD40076BFAA /* MakeSaltWaterCommand.m in Sources */,
 				2B5D36431764262400AE2616 /* AppDelegate.m in Sources */,
 				2B5D365A17643F7900AE2616 /* BookShelf.m in Sources */,
 				2BD097C417C89FF7006C391A /* DoSomeThing.m in Sources */,
@@ -377,6 +419,7 @@
 				2B5D366017644CAF00AE2616 /* BookShelfEnumerator.m in Sources */,
 				2B78B0C917C88B14000A647F /* Mediator.m in Sources */,
 				2B78B0CF17C8900E000A647F /* APatternCollegue.m in Sources */,
+				2B95930C17CA3A390076BFAA /* AddWaterrCommand.m in Sources */,
 				2B1F85B71776D96000639517 /* IteratorViewController.m in Sources */,
 				2B5449C617C0FF8C0006F602 /* FlyweightViewController.m in Sources */,
 				2B1F85BD1776DAE900639517 /* ObserverViewController.m in Sources */,
@@ -384,7 +427,9 @@
 				2B1F85C31776E3E400639517 /* SingletonViewController.m in Sources */,
 				2B1F85C71776E4AB00639517 /* SingletonObject.m in Sources */,
 				2B78A34E17892A4F00DBC118 /* ConcreateCreater.m in Sources */,
+				2B95930317CA27F80076BFAA /* Command.m in Sources */,
 				2BD097C517C89FF7006C391A /* DynamicProxy.m in Sources */,
+				2B95930617CA28340076BFAA /* Beaker.m in Sources */,
 				2B78A34F17892A4F00DBC118 /* Creator.m in Sources */,
 				2B78A35017892A4F00DBC118 /* FactoryViewController.m in Sources */,
 				2B78A35117892A4F00DBC118 /* Product.m in Sources */,

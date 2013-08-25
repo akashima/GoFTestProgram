@@ -15,6 +15,7 @@
 #import "TemplateMethodViewController.h"
 #import "FlyweightViewController.h"
 #import "MediatorViewController.h"
+#import "CommandViewController.h"
 
 @implementation AppDelegate
 
@@ -37,7 +38,8 @@
 //	FactoryViewController *viewController = [[FactoryViewController alloc] init];
 //	TemplateMethodViewController *viewController = [[TemplateMethodViewController alloc] init];
 //	FlyweightViewController *viewController = [[FlyweightViewController alloc] init];
-	MediatorViewController *viewController = [[MediatorViewController alloc] init];
+//	MediatorViewController *viewController = [[MediatorViewController alloc] init];
+	CommandViewController *viewController = [[CommandViewController alloc] init];
 	[_window setRootViewController:viewController];
 	[viewController.view setFrame:CGRectMake(0, 0, [[UIScreen mainScreen] applicationFrame].size.width, [[UIScreen mainScreen] applicationFrame].size.height)];
 	[viewController.view setBackgroundColor:[UIColor redColor]];
