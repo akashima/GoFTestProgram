@@ -7,7 +7,15 @@
 //
 
 #import "DataList.h"
+#import "CheckList.h"
 
 @implementation DataList
+
+- (NSString *)searchData:(NSString *)dataName
+{
+	NSMutableString *searchResult = [NSMutableString string];
+
+	return searchResult;
+}
 
 @end

@@ -10,4 +10,6 @@
 
 @interface Librarian : NSObject
 
+- (NSString *)searchData:(NSString *)dataName;
+
 @end

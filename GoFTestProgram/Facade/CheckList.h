@@ -10,4 +10,6 @@
 
 @interface CheckList : NSObject
 
+- (BOOL)checkList:(NSString *)checkName;
+
 @end

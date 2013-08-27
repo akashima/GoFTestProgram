@@ -11,10 +11,16 @@
 @implementation SingletonObject
 
 static SingletonObject *sharedSingletonObject = nil;
+#if !__has_feature(objc_arc)
+#else
+static dispatch_queue_t serialQueue;
+#define SingletonObjectQueueName "jp.bglb.vritra.GoFTestProgram.SerialQueue"
+#endif
 
+#if !__has_feature(objc_arc)
 - (id)init
 {
-	self = [SingletonObject sharedManager];
+	self = [super init];
 	if (self)
 	{
 		_title = [NSMutableString string];
@@ -61,7 +67,47 @@ static SingletonObject *sharedSingletonObject = nil;
 {
 	return UINT_MAX;
 }
+#else
+- (id)init
+{
+	id __block obj;
+	dispatch_sync(serialQueue,
+	^{
+		obj = [super init];
+		if (obj)
+		{
+			
+		}
+	});
+	self = obj;
+	return self;
+}
 
++ (id)allocWithZone:(NSZone *)zone
+{
+	static dispatch_once_t onceToken;
+	dispatch_once(&onceToken,
+	^{
+		serialQueue = dispatch_queue_create(SingletonObjectQueueName, NULL);
+		if (sharedSingletonObject == nil)
+		{
+			sharedSingletonObject = [super allocWithZone:zone];
+		}
+	});
+	return sharedSingletonObject;
+}
+
++ (SingletonObject *)sharedManager
+{
+	static dispatch_once_t onceToken;
+	dispatch_once(&onceToken,
+	^{
+		sharedSingletonObject = [[SingletonObject alloc] init];
+	});
+	return sharedSingletonObject;
+}
+
+#endif
 
 - (void)setTitle:(NSString *)title
 {

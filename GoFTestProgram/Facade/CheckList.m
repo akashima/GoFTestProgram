@@ -10,4 +10,9 @@
 
 @implementation CheckList
 
+- (BOOL)checkList:(NSString *)checkName
+{
+	BOOL isCheckName = FALSE;
+	return isCheckName;
+}
 @end

@@ -10,4 +10,6 @@
 
 @interface DataList : NSObject
 
+- (NSString *)searchData:(NSString *)dataName;
+
 @end

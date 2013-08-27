@@ -48,6 +48,10 @@
 		2BD097C417C89FF7006C391A /* DoSomeThing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097BF17C89FF7006C391A /* DoSomeThing.m */; };
 		2BD097C517C89FF7006C391A /* DynamicProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097C117C89FF7006C391A /* DynamicProxy.m */; };
 		2BD097C617C89FF7006C391A /* ProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097C317C89FF7006C391A /* ProxyViewController.m */; };
+		86919A0717CADFE1008D0FFC /* FacadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86919A0617CADFE1008D0FFC /* FacadeViewController.m */; };
+		86919A0A17CADFFC008D0FFC /* Librarian.m in Sources */ = {isa = PBXBuildFile; fileRef = 86919A0917CADFFC008D0FFC /* Librarian.m */; };
+		86919A0D17CAE014008D0FFC /* DataList.m in Sources */ = {isa = PBXBuildFile; fileRef = 86919A0C17CAE014008D0FFC /* DataList.m */; };
+		86919A1017CAE334008D0FFC /* CheckList.m in Sources */ = {isa = PBXBuildFile; fileRef = 86919A0F17CAE334008D0FFC /* CheckList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +132,14 @@
 		2BD097C117C89FF7006C391A /* DynamicProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicProxy.m; sourceTree = "<group>"; };
 		2BD097C217C89FF7006C391A /* ProxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyViewController.h; sourceTree = "<group>"; };
 		2BD097C317C89FF7006C391A /* ProxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyViewController.m; sourceTree = "<group>"; };
+		86919A0517CADFE1008D0FFC /* FacadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacadeViewController.h; sourceTree = "<group>"; };
+		86919A0617CADFE1008D0FFC /* FacadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacadeViewController.m; sourceTree = "<group>"; };
+		86919A0817CADFFC008D0FFC /* Librarian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Librarian.h; sourceTree = "<group>"; };
+		86919A0917CADFFC008D0FFC /* Librarian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Librarian.m; sourceTree = "<group>"; };
+		86919A0B17CAE014008D0FFC /* DataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataList.h; sourceTree = "<group>"; };
+		86919A0C17CAE014008D0FFC /* DataList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataList.m; sourceTree = "<group>"; };
+		86919A0E17CAE334008D0FFC /* CheckList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckList.h; sourceTree = "<group>"; };
+		86919A0F17CAE334008D0FFC /* CheckList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +219,7 @@
 				2BAA23DB17B7AD1D00B668CD /* Flyweight */,
 				2BE3080317C73EE7003AF54C /* Mediator */,
 				2B95930017CA26C80076BFAA /* Command */,
+				86919A0417CADFCA008D0FFC /* Facade */,
 				2B5D36391764262400AE2616 /* Supporting Files */,
 				2B5D36311764262400AE2616 /* Frameworks */,
 				2B5D36301764262400AE2616 /* Products */,
@@ -341,6 +354,22 @@
 			path = GoFTestProgram/Mediator;
 			sourceTree = "<group>";
 		};
+		86919A0417CADFCA008D0FFC /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				86919A0517CADFE1008D0FFC /* FacadeViewController.h */,
+				86919A0617CADFE1008D0FFC /* FacadeViewController.m */,
+				86919A0817CADFFC008D0FFC /* Librarian.h */,
+				86919A0917CADFFC008D0FFC /* Librarian.m */,
+				86919A0B17CAE014008D0FFC /* DataList.h */,
+				86919A0C17CAE014008D0FFC /* DataList.m */,
+				86919A0E17CAE334008D0FFC /* CheckList.h */,
+				86919A0F17CAE334008D0FFC /* CheckList.m */,
+			);
+			name = Facade;
+			path = GoFTestProgram/Facade;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -440,6 +469,10 @@
 				2B5449C317C0FB100006F602 /* ColorPallet.m in Sources */,
 				2B0346C117A49B6300107691 /* Life.m in Sources */,
 				2B0346C417A49C0C00107691 /* GoodLife.m in Sources */,
+				86919A0717CADFE1008D0FFC /* FacadeViewController.m in Sources */,
+				86919A0A17CADFFC008D0FFC /* Librarian.m in Sources */,
+				86919A0D17CAE014008D0FFC /* DataList.m in Sources */,
+				86919A1017CAE334008D0FFC /* CheckList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
