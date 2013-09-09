@@ -1,19 +1,18 @@
 //
-//  FacadeViewController.m
+//  CompositViewController.m
 //  GoFTestProgram
 //
-//  Created by 鹿島　章 on 13/08/26.
+//  Created by akashima on 2013/09/09.
 //  Copyright (c) 2013年 akashima. All rights reserved.
 //
 
-#import "FacadeViewController.h"
-#import "Facade.h"
+#import "CompositViewController.h"
 
-@interface FacadeViewController ()
+@interface CompositViewController ()
 
 @end
 
-@implementation FacadeViewController
+@implementation CompositViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,12 +27,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-
-	Facade *facade = [[Facade alloc] init];
-	[facade methodFirst];
-	[facade methodSecond];
-	[facade release];
-
 }
 
 - (void)didReceiveMemoryWarning

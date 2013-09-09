@@ -48,10 +48,17 @@
 		2BD097C417C89FF7006C391A /* DoSomeThing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097BF17C89FF7006C391A /* DoSomeThing.m */; };
 		2BD097C517C89FF7006C391A /* DynamicProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097C117C89FF7006C391A /* DynamicProxy.m */; };
 		2BD097C617C89FF7006C391A /* ProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097C317C89FF7006C391A /* ProxyViewController.m */; };
+		2BE8626D17DDEC6A006CE6A6 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8626C17DDEC6A006CE6A6 /* Facade.m */; };
+		2BE8627017DDEC80006CE6A6 /* SubSystemA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8626F17DDEC80006CE6A6 /* SubSystemA.m */; };
+		2BE8627317DDEC8D006CE6A6 /* SubSystemB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8627217DDEC8D006CE6A6 /* SubSystemB.m */; };
+		2BE8627617DDEC97006CE6A6 /* SubSystemC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8627517DDEC97006CE6A6 /* SubSystemC.m */; };
+		2BE8627A17DE0A5F006CE6A6 /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8627917DE0A5F006CE6A6 /* StateViewController.m */; };
+		2BE8627D17DE0B8F006CE6A6 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8627C17DE0B8F006CE6A6 /* State.m */; };
+		2BE8628017DE1028006CE6A6 /* DefaultSkillState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8627F17DE1028006CE6A6 /* DefaultSkillState.m */; };
+		2BE8628317DE10DE006CE6A6 /* HighclassSkillState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8628217DE10DE006CE6A6 /* HighclassSkillState.m */; };
+		2BE8628617DE1171006CE6A6 /* SwordMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8628517DE1171006CE6A6 /* SwordMan.m */; };
+		2BE8628A17DE1848006CE6A6 /* CompositViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8628917DE1848006CE6A6 /* CompositViewController.m */; };
 		86919A0717CADFE1008D0FFC /* FacadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86919A0617CADFE1008D0FFC /* FacadeViewController.m */; };
-		86919A0A17CADFFC008D0FFC /* Librarian.m in Sources */ = {isa = PBXBuildFile; fileRef = 86919A0917CADFFC008D0FFC /* Librarian.m */; };
-		86919A0D17CAE014008D0FFC /* DataList.m in Sources */ = {isa = PBXBuildFile; fileRef = 86919A0C17CAE014008D0FFC /* DataList.m */; };
-		86919A1017CAE334008D0FFC /* CheckList.m in Sources */ = {isa = PBXBuildFile; fileRef = 86919A0F17CAE334008D0FFC /* CheckList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -132,14 +139,28 @@
 		2BD097C117C89FF7006C391A /* DynamicProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicProxy.m; sourceTree = "<group>"; };
 		2BD097C217C89FF7006C391A /* ProxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyViewController.h; sourceTree = "<group>"; };
 		2BD097C317C89FF7006C391A /* ProxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyViewController.m; sourceTree = "<group>"; };
+		2BE8626B17DDEC6A006CE6A6 /* Facade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
+		2BE8626C17DDEC6A006CE6A6 /* Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
+		2BE8626E17DDEC80006CE6A6 /* SubSystemA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSystemA.h; sourceTree = "<group>"; };
+		2BE8626F17DDEC80006CE6A6 /* SubSystemA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSystemA.m; sourceTree = "<group>"; };
+		2BE8627117DDEC8D006CE6A6 /* SubSystemB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSystemB.h; sourceTree = "<group>"; };
+		2BE8627217DDEC8D006CE6A6 /* SubSystemB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSystemB.m; sourceTree = "<group>"; };
+		2BE8627417DDEC97006CE6A6 /* SubSystemC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSystemC.h; sourceTree = "<group>"; };
+		2BE8627517DDEC97006CE6A6 /* SubSystemC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSystemC.m; sourceTree = "<group>"; };
+		2BE8627817DE0A5F006CE6A6 /* StateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
+		2BE8627917DE0A5F006CE6A6 /* StateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
+		2BE8627B17DE0B8F006CE6A6 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		2BE8627C17DE0B8F006CE6A6 /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		2BE8627E17DE1028006CE6A6 /* DefaultSkillState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultSkillState.h; sourceTree = "<group>"; };
+		2BE8627F17DE1028006CE6A6 /* DefaultSkillState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultSkillState.m; sourceTree = "<group>"; };
+		2BE8628117DE10DE006CE6A6 /* HighclassSkillState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighclassSkillState.h; sourceTree = "<group>"; };
+		2BE8628217DE10DE006CE6A6 /* HighclassSkillState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighclassSkillState.m; sourceTree = "<group>"; };
+		2BE8628417DE1171006CE6A6 /* SwordMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwordMan.h; sourceTree = "<group>"; };
+		2BE8628517DE1171006CE6A6 /* SwordMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwordMan.m; sourceTree = "<group>"; };
+		2BE8628817DE1848006CE6A6 /* CompositViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositViewController.h; sourceTree = "<group>"; };
+		2BE8628917DE1848006CE6A6 /* CompositViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositViewController.m; sourceTree = "<group>"; };
 		86919A0517CADFE1008D0FFC /* FacadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacadeViewController.h; sourceTree = "<group>"; };
 		86919A0617CADFE1008D0FFC /* FacadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacadeViewController.m; sourceTree = "<group>"; };
-		86919A0817CADFFC008D0FFC /* Librarian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Librarian.h; sourceTree = "<group>"; };
-		86919A0917CADFFC008D0FFC /* Librarian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Librarian.m; sourceTree = "<group>"; };
-		86919A0B17CAE014008D0FFC /* DataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataList.h; sourceTree = "<group>"; };
-		86919A0C17CAE014008D0FFC /* DataList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataList.m; sourceTree = "<group>"; };
-		86919A0E17CAE334008D0FFC /* CheckList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckList.h; sourceTree = "<group>"; };
-		86919A0F17CAE334008D0FFC /* CheckList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +241,8 @@
 				2BE3080317C73EE7003AF54C /* Mediator */,
 				2B95930017CA26C80076BFAA /* Command */,
 				86919A0417CADFCA008D0FFC /* Facade */,
+				2BE8627717DE0A52006CE6A6 /* State */,
+				2BE8628717DE17D4006CE6A6 /* Composit */,
 				2B5D36391764262400AE2616 /* Supporting Files */,
 				2B5D36311764262400AE2616 /* Frameworks */,
 				2B5D36301764262400AE2616 /* Products */,
@@ -354,17 +377,47 @@
 			path = GoFTestProgram/Mediator;
 			sourceTree = "<group>";
 		};
+		2BE8627717DE0A52006CE6A6 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8627817DE0A5F006CE6A6 /* StateViewController.h */,
+				2BE8627917DE0A5F006CE6A6 /* StateViewController.m */,
+				2BE8628417DE1171006CE6A6 /* SwordMan.h */,
+				2BE8628517DE1171006CE6A6 /* SwordMan.m */,
+				2BE8627B17DE0B8F006CE6A6 /* State.h */,
+				2BE8627C17DE0B8F006CE6A6 /* State.m */,
+				2BE8627E17DE1028006CE6A6 /* DefaultSkillState.h */,
+				2BE8627F17DE1028006CE6A6 /* DefaultSkillState.m */,
+				2BE8628117DE10DE006CE6A6 /* HighclassSkillState.h */,
+				2BE8628217DE10DE006CE6A6 /* HighclassSkillState.m */,
+			);
+			name = State;
+			path = GoFTestProgram/State;
+			sourceTree = "<group>";
+		};
+		2BE8628717DE17D4006CE6A6 /* Composit */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8628817DE1848006CE6A6 /* CompositViewController.h */,
+				2BE8628917DE1848006CE6A6 /* CompositViewController.m */,
+			);
+			name = Composit;
+			path = GoFTestProgram/Composit;
+			sourceTree = "<group>";
+		};
 		86919A0417CADFCA008D0FFC /* Facade */ = {
 			isa = PBXGroup;
 			children = (
 				86919A0517CADFE1008D0FFC /* FacadeViewController.h */,
 				86919A0617CADFE1008D0FFC /* FacadeViewController.m */,
-				86919A0817CADFFC008D0FFC /* Librarian.h */,
-				86919A0917CADFFC008D0FFC /* Librarian.m */,
-				86919A0B17CAE014008D0FFC /* DataList.h */,
-				86919A0C17CAE014008D0FFC /* DataList.m */,
-				86919A0E17CAE334008D0FFC /* CheckList.h */,
-				86919A0F17CAE334008D0FFC /* CheckList.m */,
+				2BE8626B17DDEC6A006CE6A6 /* Facade.h */,
+				2BE8626C17DDEC6A006CE6A6 /* Facade.m */,
+				2BE8626E17DDEC80006CE6A6 /* SubSystemA.h */,
+				2BE8626F17DDEC80006CE6A6 /* SubSystemA.m */,
+				2BE8627117DDEC8D006CE6A6 /* SubSystemB.h */,
+				2BE8627217DDEC8D006CE6A6 /* SubSystemB.m */,
+				2BE8627417DDEC97006CE6A6 /* SubSystemC.h */,
+				2BE8627517DDEC97006CE6A6 /* SubSystemC.m */,
 			);
 			name = Facade;
 			path = GoFTestProgram/Facade;
@@ -470,9 +523,16 @@
 				2B0346C117A49B6300107691 /* Life.m in Sources */,
 				2B0346C417A49C0C00107691 /* GoodLife.m in Sources */,
 				86919A0717CADFE1008D0FFC /* FacadeViewController.m in Sources */,
-				86919A0A17CADFFC008D0FFC /* Librarian.m in Sources */,
-				86919A0D17CAE014008D0FFC /* DataList.m in Sources */,
-				86919A1017CAE334008D0FFC /* CheckList.m in Sources */,
+				2BE8626D17DDEC6A006CE6A6 /* Facade.m in Sources */,
+				2BE8627017DDEC80006CE6A6 /* SubSystemA.m in Sources */,
+				2BE8627317DDEC8D006CE6A6 /* SubSystemB.m in Sources */,
+				2BE8627617DDEC97006CE6A6 /* SubSystemC.m in Sources */,
+				2BE8627A17DE0A5F006CE6A6 /* StateViewController.m in Sources */,
+				2BE8627D17DE0B8F006CE6A6 /* State.m in Sources */,
+				2BE8628017DE1028006CE6A6 /* DefaultSkillState.m in Sources */,
+				2BE8628317DE10DE006CE6A6 /* HighclassSkillState.m in Sources */,
+				2BE8628617DE1171006CE6A6 /* SwordMan.m in Sources */,
+				2BE8628A17DE1848006CE6A6 /* CompositViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
