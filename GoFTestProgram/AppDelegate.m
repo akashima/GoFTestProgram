@@ -26,6 +26,7 @@
 #import "StrategyViewController.h"
 #import "DecoratorViewController.h"
 #import "VisitorViewController.h"
+#import "ResponsibilityViewController.h"
 
 
 
@@ -61,7 +62,8 @@
 //	BuilderViewController *viewController = [[BuilderViewController alloc] init];
 //	StrategyViewController *viewController = [[StrategyViewController alloc] init];
 //	DecoratorViewController *viewController = [[DecoratorViewController alloc] init];
-	VisitorViewController *viewController = [[VisitorViewController alloc] init];
+//	VisitorViewController *viewController = [[VisitorViewController alloc] init];
+	ResponsibilityViewController *viewController = [[ResponsibilityViewController alloc] init];
 
 	[_window setRootViewController:viewController];
 	[viewController.view setFrame:CGRectMake(0, 0, [[UIScreen mainScreen] applicationFrame].size.width, [[UIScreen mainScreen] applicationFrame].size.height)];

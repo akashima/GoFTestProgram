@@ -24,6 +24,10 @@
 		2B0DECF9181D605000748FB8 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECF8181D605000748FB8 /* Home.m */; };
 		2B0DED00181D620100748FB8 /* SuzukiHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECFF181D620100748FB8 /* SuzukiHome.m */; };
 		2B0DED03181D638700748FB8 /* TanakaHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DED02181D638700748FB8 /* TanakaHome.m */; };
+		2B0DED08181D741900748FB8 /* ResponsibilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DED07181D741900748FB8 /* ResponsibilityViewController.m */; };
+		2B0DED0B181D744B00748FB8 /* Responsible.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DED0A181D744B00748FB8 /* Responsible.m */; };
+		2B0DED0E181D766E00748FB8 /* ClassTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DED0D181D766E00748FB8 /* ClassTeacher.m */; };
+		2B0DED11181D780500748FB8 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DED10181D780500748FB8 /* Question.m */; };
 		2B1F85B71776D96000639517 /* IteratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F85B61776D96000639517 /* IteratorViewController.m */; };
 		2B1F85BD1776DAE900639517 /* ObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F85BB1776DAE900639517 /* ObserverViewController.m */; };
 		2B1F85C31776E3E400639517 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F85C11776E3E400639517 /* SingletonViewController.m */; };
@@ -134,6 +138,14 @@
 		2B0DECFF181D620100748FB8 /* SuzukiHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuzukiHome.m; sourceTree = "<group>"; };
 		2B0DED01181D638700748FB8 /* TanakaHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TanakaHome.h; sourceTree = "<group>"; };
 		2B0DED02181D638700748FB8 /* TanakaHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TanakaHome.m; sourceTree = "<group>"; };
+		2B0DED06181D741900748FB8 /* ResponsibilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponsibilityViewController.h; sourceTree = "<group>"; };
+		2B0DED07181D741900748FB8 /* ResponsibilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponsibilityViewController.m; sourceTree = "<group>"; };
+		2B0DED09181D744B00748FB8 /* Responsible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Responsible.h; sourceTree = "<group>"; };
+		2B0DED0A181D744B00748FB8 /* Responsible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Responsible.m; sourceTree = "<group>"; };
+		2B0DED0C181D766E00748FB8 /* ClassTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassTeacher.h; sourceTree = "<group>"; };
+		2B0DED0D181D766E00748FB8 /* ClassTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassTeacher.m; sourceTree = "<group>"; };
+		2B0DED0F181D780500748FB8 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		2B0DED10181D780500748FB8 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		2B1F85B51776D96000639517 /* IteratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IteratorViewController.h; sourceTree = "<group>"; };
 		2B1F85B61776D96000639517 /* IteratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IteratorViewController.m; sourceTree = "<group>"; };
 		2B1F85BA1776DAE900639517 /* ObserverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverViewController.h; sourceTree = "<group>"; };
@@ -349,6 +361,22 @@
 			path = GoFTestProgram/AbstractFactory;
 			sourceTree = "<group>";
 		};
+		2B0DED05181D73F800748FB8 /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				2B0DED06181D741900748FB8 /* ResponsibilityViewController.h */,
+				2B0DED07181D741900748FB8 /* ResponsibilityViewController.m */,
+				2B0DED09181D744B00748FB8 /* Responsible.h */,
+				2B0DED0A181D744B00748FB8 /* Responsible.m */,
+				2B0DED0C181D766E00748FB8 /* ClassTeacher.h */,
+				2B0DED0D181D766E00748FB8 /* ClassTeacher.m */,
+				2B0DED0F181D780500748FB8 /* Question.h */,
+				2B0DED10181D780500748FB8 /* Question.m */,
+			);
+			name = ChainOfResponsibility;
+			path = GoFTestProgram/ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
 		2B1F85B81776DA7400639517 /* Observer */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,6 +429,7 @@
 				2BA5ECA617F9C75F009FEB15 /* Strategy */,
 				2BE8628717DE17D4006CE6A6 /* Composit */,
 				2B0DECE0181D3C3400748FB8 /* Decorator */,
+				2B0DED05181D73F800748FB8 /* ChainOfResponsibility */,
 				2B0DECED181D5B1200748FB8 /* Visitor */,
 				86919A0417CADFCA008D0FFC /* Facade */,
 				2BE3080317C73EE7003AF54C /* Mediator */,
@@ -754,6 +783,7 @@
 				2B95931217CA3BB50076BFAA /* CommandViewController.m in Sources */,
 				2B95931517CA47F10076BFAA /* AddSaltCommand.m in Sources */,
 				2B0DECE3181D3C6100748FB8 /* DecoratorViewController.m in Sources */,
+				2B0DED11181D780500748FB8 /* Question.m in Sources */,
 				2B5D363F1764262400AE2616 /* main.m in Sources */,
 				2B95930F17CA3AD40076BFAA /* MakeSaltWaterCommand.m in Sources */,
 				2B0DECF6181D5F0A00748FB8 /* RookieTeacher.m in Sources */,
@@ -799,6 +829,7 @@
 				2BD097C617C89FF7006C391A /* ProxyViewController.m in Sources */,
 				2B78A35217892A4F00DBC118 /* ProductA.m in Sources */,
 				2B78A35317892A4F00DBC118 /* ProductB.m in Sources */,
+				2B0DED0E181D766E00748FB8 /* ClassTeacher.m in Sources */,
 				2B0DECE6181D3D7D00748FB8 /* Icecream.m in Sources */,
 				2B0DECE9181D3FA900748FB8 /* VanillaIcecream.m in Sources */,
 				2B0DED00181D620100748FB8 /* SuzukiHome.m in Sources */,
@@ -815,6 +846,7 @@
 				2BA5EC9917F87AA9009FEB15 /* BuilderViewController.m in Sources */,
 				2B0DECF3181D5DC200748FB8 /* Teacher.m in Sources */,
 				2BE8626D17DDEC6A006CE6A6 /* Facade.m in Sources */,
+				2B0DED0B181D744B00748FB8 /* Responsible.m in Sources */,
 				2BA5ECA217F87DA6009FEB15 /* SaltWaterBuilder.m in Sources */,
 				2BE8627017DDEC80006CE6A6 /* SubSystemA.m in Sources */,
 				2BBE80D917F08055007B0E42 /* Cloneable.m in Sources */,
@@ -826,6 +858,7 @@
 				2BE8627D17DE0B8F006CE6A6 /* State.m in Sources */,
 				2BFD54DF17E73CBC00AD7528 /* Adapter.m in Sources */,
 				2B0DECD9181D34E000748FB8 /* Comparetor.m in Sources */,
+				2B0DED08181D741900748FB8 /* ResponsibilityViewController.m in Sources */,
 				2B0DECEC181D402400748FB8 /* CashewNutsVanillaIcecream.m in Sources */,
 				2BE8628017DE1028006CE6A6 /* DefaultSkillState.m in Sources */,
 				2BE8628317DE10DE006CE6A6 /* HighclassSkillState.m in Sources */,
