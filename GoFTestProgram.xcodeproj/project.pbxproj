@@ -10,6 +10,20 @@
 		2B0346BE17A4948B00107691 /* TemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0346BD17A4948B00107691 /* TemplateMethodViewController.m */; };
 		2B0346C117A49B6300107691 /* Life.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0346C017A49B6300107691 /* Life.m */; };
 		2B0346C417A49C0C00107691 /* GoodLife.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0346C317A49C0C00107691 /* GoodLife.m */; };
+		2B0B3FCE17E5EF40000BA6F1 /* EntoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0B3FCD17E5EF40000BA6F1 /* EntoryObject.m */; };
+		2B0DECD9181D34E000748FB8 /* Comparetor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECD8181D34E000748FB8 /* Comparetor.m */; };
+		2B0DECDC181D35F500748FB8 /* HeightComparetor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECDB181D35F500748FB8 /* HeightComparetor.m */; };
+		2B0DECDF181D36B900748FB8 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECDE181D36B900748FB8 /* MyClass.m */; };
+		2B0DECE3181D3C6100748FB8 /* DecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECE2181D3C6100748FB8 /* DecoratorViewController.m */; };
+		2B0DECE6181D3D7D00748FB8 /* Icecream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECE5181D3D7D00748FB8 /* Icecream.m */; };
+		2B0DECE9181D3FA900748FB8 /* VanillaIcecream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECE8181D3FA900748FB8 /* VanillaIcecream.m */; };
+		2B0DECEC181D402400748FB8 /* CashewNutsVanillaIcecream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECEB181D402400748FB8 /* CashewNutsVanillaIcecream.m */; };
+		2B0DECF0181D5D9500748FB8 /* VisitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECEF181D5D9500748FB8 /* VisitorViewController.m */; };
+		2B0DECF3181D5DC200748FB8 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECF2181D5DC200748FB8 /* Teacher.m */; };
+		2B0DECF6181D5F0A00748FB8 /* RookieTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECF5181D5F0A00748FB8 /* RookieTeacher.m */; };
+		2B0DECF9181D605000748FB8 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECF8181D605000748FB8 /* Home.m */; };
+		2B0DED00181D620100748FB8 /* SuzukiHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DECFF181D620100748FB8 /* SuzukiHome.m */; };
+		2B0DED03181D638700748FB8 /* TanakaHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DED02181D638700748FB8 /* TanakaHome.m */; };
 		2B1F85B71776D96000639517 /* IteratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F85B61776D96000639517 /* IteratorViewController.m */; };
 		2B1F85BD1776DAE900639517 /* ObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F85BB1776DAE900639517 /* ObserverViewController.m */; };
 		2B1F85C31776E3E400639517 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F85C11776E3E400639517 /* SingletonViewController.m */; };
@@ -45,6 +59,24 @@
 		2B95930F17CA3AD40076BFAA /* MakeSaltWaterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B95930E17CA3AD40076BFAA /* MakeSaltWaterCommand.m */; };
 		2B95931217CA3BB50076BFAA /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B95931117CA3BB50076BFAA /* CommandViewController.m */; };
 		2B95931517CA47F10076BFAA /* AddSaltCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B95931417CA47F10076BFAA /* AddSaltCommand.m */; };
+		2BA5EC8017F83C51009FEB15 /* BridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5EC7F17F83C51009FEB15 /* BridgeViewController.m */; };
+		2BA5EC8317F872B8009FEB15 /* Material.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5EC8217F872B8009FEB15 /* Material.m */; };
+		2BA5EC8617F8738A009FEB15 /* Dishware.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5EC8517F8738A009FEB15 /* Dishware.m */; };
+		2BA5EC8917F8740E009FEB15 /* Wood.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5EC8817F8740E009FEB15 /* Wood.m */; };
+		2BA5EC8C17F87431009FEB15 /* Glass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5EC8B17F87431009FEB15 /* Glass.m */; };
+		2BA5EC9217F8764D009FEB15 /* Plate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5EC9117F8764D009FEB15 /* Plate.m */; };
+		2BA5EC9517F87674009FEB15 /* Bowl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5EC9417F87674009FEB15 /* Bowl.m */; };
+		2BA5EC9917F87AA9009FEB15 /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5EC9817F87AA9009FEB15 /* BuilderViewController.m */; };
+		2BA5EC9C17F87B97009FEB15 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5EC9B17F87B97009FEB15 /* Builder.m */; };
+		2BA5EC9F17F87C0F009FEB15 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5EC9E17F87C0F009FEB15 /* Director.m */; };
+		2BA5ECA217F87DA6009FEB15 /* SaltWaterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5ECA117F87DA6009FEB15 /* SaltWaterBuilder.m */; };
+		2BA5ECA517F87DE5009FEB15 /* SaltWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5ECA417F87DE5009FEB15 /* SaltWater.m */; };
+		2BA5ECA917F9C77A009FEB15 /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5ECA817F9C77A009FEB15 /* StrategyViewController.m */; };
+		2BA5ECAC17F9C7F8009FEB15 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5ECAB17F9C7F8009FEB15 /* Human.m */; };
+		2BA5ECAF17F9C9E2009FEB15 /* AgeComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5ECAE17F9C9E2009FEB15 /* AgeComparator.m */; };
+		2BBE80D617F07FCD007B0E42 /* PrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE80D517F07FCD007B0E42 /* PrototypeViewController.m */; };
+		2BBE80D917F08055007B0E42 /* Cloneable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE80D817F08055007B0E42 /* Cloneable.m */; };
+		2BBE80DC17F092BC007B0E42 /* Paper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE80DB17F092BC007B0E42 /* Paper.m */; };
 		2BD097C417C89FF7006C391A /* DoSomeThing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097BF17C89FF7006C391A /* DoSomeThing.m */; };
 		2BD097C517C89FF7006C391A /* DynamicProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097C117C89FF7006C391A /* DynamicProxy.m */; };
 		2BD097C617C89FF7006C391A /* ProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD097C317C89FF7006C391A /* ProxyViewController.m */; };
@@ -58,6 +90,11 @@
 		2BE8628317DE10DE006CE6A6 /* HighclassSkillState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8628217DE10DE006CE6A6 /* HighclassSkillState.m */; };
 		2BE8628617DE1171006CE6A6 /* SwordMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8628517DE1171006CE6A6 /* SwordMan.m */; };
 		2BE8628A17DE1848006CE6A6 /* CompositViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8628917DE1848006CE6A6 /* CompositViewController.m */; };
+		2BFD54D517E5FF9900AD7528 /* DirectoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD54D417E5FF9900AD7528 /* DirectoryObject.m */; };
+		2BFD54D817E6063400AD7528 /* FileObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD54D717E6063400AD7528 /* FileObject.m */; };
+		2BFD54DC17E737F900AD7528 /* AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD54DB17E737F900AD7528 /* AdapterViewController.m */; };
+		2BFD54DF17E73CBC00AD7528 /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD54DE17E73CBC00AD7528 /* Adapter.m */; };
+		2BFD54E217E73D2600AD7528 /* Adaptee.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD54E117E73D2600AD7528 /* Adaptee.m */; };
 		86919A0717CADFE1008D0FFC /* FacadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86919A0617CADFE1008D0FFC /* FacadeViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +105,35 @@
 		2B0346C017A49B6300107691 /* Life.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Life.m; sourceTree = "<group>"; };
 		2B0346C217A49C0C00107691 /* GoodLife.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodLife.h; sourceTree = "<group>"; };
 		2B0346C317A49C0C00107691 /* GoodLife.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodLife.m; sourceTree = "<group>"; };
+		2B0B3FCC17E5EF40000BA6F1 /* EntoryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntoryObject.h; sourceTree = "<group>"; };
+		2B0B3FCD17E5EF40000BA6F1 /* EntoryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntoryObject.m; sourceTree = "<group>"; };
+		2B0DECD7181D34E000748FB8 /* Comparetor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comparetor.h; sourceTree = "<group>"; };
+		2B0DECD8181D34E000748FB8 /* Comparetor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comparetor.m; sourceTree = "<group>"; };
+		2B0DECDA181D35F500748FB8 /* HeightComparetor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightComparetor.h; sourceTree = "<group>"; };
+		2B0DECDB181D35F500748FB8 /* HeightComparetor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeightComparetor.m; sourceTree = "<group>"; };
+		2B0DECDD181D36B900748FB8 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		2B0DECDE181D36B900748FB8 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		2B0DECE1181D3C6100748FB8 /* DecoratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorViewController.h; sourceTree = "<group>"; };
+		2B0DECE2181D3C6100748FB8 /* DecoratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorViewController.m; sourceTree = "<group>"; };
+		2B0DECE4181D3D7D00748FB8 /* Icecream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Icecream.h; sourceTree = "<group>"; };
+		2B0DECE5181D3D7D00748FB8 /* Icecream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Icecream.m; sourceTree = "<group>"; };
+		2B0DECE7181D3FA900748FB8 /* VanillaIcecream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VanillaIcecream.h; sourceTree = "<group>"; };
+		2B0DECE8181D3FA900748FB8 /* VanillaIcecream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VanillaIcecream.m; sourceTree = "<group>"; };
+		2B0DECEA181D402400748FB8 /* CashewNutsVanillaIcecream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashewNutsVanillaIcecream.h; sourceTree = "<group>"; };
+		2B0DECEB181D402400748FB8 /* CashewNutsVanillaIcecream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashewNutsVanillaIcecream.m; sourceTree = "<group>"; };
+		2B0DECEE181D5D9500748FB8 /* VisitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorViewController.h; sourceTree = "<group>"; };
+		2B0DECEF181D5D9500748FB8 /* VisitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorViewController.m; sourceTree = "<group>"; };
+		2B0DECF1181D5DC200748FB8 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		2B0DECF2181D5DC200748FB8 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		2B0DECF4181D5F0A00748FB8 /* RookieTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RookieTeacher.h; sourceTree = "<group>"; };
+		2B0DECF5181D5F0A00748FB8 /* RookieTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RookieTeacher.m; sourceTree = "<group>"; };
+		2B0DECF7181D605000748FB8 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		2B0DECF8181D605000748FB8 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		2B0DECFD181D619E00748FB8 /* TeacherAccept.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeacherAccept.h; sourceTree = "<group>"; };
+		2B0DECFE181D620100748FB8 /* SuzukiHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuzukiHome.h; sourceTree = "<group>"; };
+		2B0DECFF181D620100748FB8 /* SuzukiHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuzukiHome.m; sourceTree = "<group>"; };
+		2B0DED01181D638700748FB8 /* TanakaHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TanakaHome.h; sourceTree = "<group>"; };
+		2B0DED02181D638700748FB8 /* TanakaHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TanakaHome.m; sourceTree = "<group>"; };
 		2B1F85B51776D96000639517 /* IteratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IteratorViewController.h; sourceTree = "<group>"; };
 		2B1F85B61776D96000639517 /* IteratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IteratorViewController.m; sourceTree = "<group>"; };
 		2B1F85BA1776DAE900639517 /* ObserverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverViewController.h; sourceTree = "<group>"; };
@@ -133,6 +199,43 @@
 		2B95931117CA3BB50076BFAA /* CommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
 		2B95931317CA47F10076BFAA /* AddSaltCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSaltCommand.h; sourceTree = "<group>"; };
 		2B95931417CA47F10076BFAA /* AddSaltCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSaltCommand.m; sourceTree = "<group>"; };
+		2BA5EC7E17F83C51009FEB15 /* BridgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeViewController.h; sourceTree = "<group>"; };
+		2BA5EC7F17F83C51009FEB15 /* BridgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeViewController.m; sourceTree = "<group>"; };
+		2BA5EC8117F872B8009FEB15 /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		2BA5EC8217F872B8009FEB15 /* Material.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Material.m; sourceTree = "<group>"; };
+		2BA5EC8417F8738A009FEB15 /* Dishware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dishware.h; sourceTree = "<group>"; };
+		2BA5EC8517F8738A009FEB15 /* Dishware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dishware.m; sourceTree = "<group>"; };
+		2BA5EC8717F8740E009FEB15 /* Wood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wood.h; sourceTree = "<group>"; };
+		2BA5EC8817F8740E009FEB15 /* Wood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wood.m; sourceTree = "<group>"; };
+		2BA5EC8A17F87431009FEB15 /* Glass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glass.h; sourceTree = "<group>"; };
+		2BA5EC8B17F87431009FEB15 /* Glass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glass.m; sourceTree = "<group>"; };
+		2BA5EC9017F8764D009FEB15 /* Plate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plate.h; sourceTree = "<group>"; };
+		2BA5EC9117F8764D009FEB15 /* Plate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plate.m; sourceTree = "<group>"; };
+		2BA5EC9317F87674009FEB15 /* Bowl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bowl.h; sourceTree = "<group>"; };
+		2BA5EC9417F87674009FEB15 /* Bowl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bowl.m; sourceTree = "<group>"; };
+		2BA5EC9717F87AA9009FEB15 /* BuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
+		2BA5EC9817F87AA9009FEB15 /* BuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
+		2BA5EC9A17F87B97009FEB15 /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
+		2BA5EC9B17F87B97009FEB15 /* Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
+		2BA5EC9D17F87C0F009FEB15 /* Director.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
+		2BA5EC9E17F87C0F009FEB15 /* Director.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
+		2BA5ECA017F87DA6009FEB15 /* SaltWaterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaltWaterBuilder.h; sourceTree = "<group>"; };
+		2BA5ECA117F87DA6009FEB15 /* SaltWaterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaltWaterBuilder.m; sourceTree = "<group>"; };
+		2BA5ECA317F87DE5009FEB15 /* SaltWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaltWater.h; sourceTree = "<group>"; };
+		2BA5ECA417F87DE5009FEB15 /* SaltWater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaltWater.m; sourceTree = "<group>"; };
+		2BA5ECA717F9C77A009FEB15 /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
+		2BA5ECA817F9C77A009FEB15 /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyViewController.m; sourceTree = "<group>"; };
+		2BA5ECAA17F9C7F8009FEB15 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		2BA5ECAB17F9C7F8009FEB15 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		2BA5ECAD17F9C9E2009FEB15 /* AgeComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgeComparator.h; sourceTree = "<group>"; };
+		2BA5ECAE17F9C9E2009FEB15 /* AgeComparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgeComparator.m; sourceTree = "<group>"; };
+		2BBE80CB17F0760A007B0E42 /* Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		2BBE80D417F07FCD007B0E42 /* PrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypeViewController.h; sourceTree = "<group>"; };
+		2BBE80D517F07FCD007B0E42 /* PrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewController.m; sourceTree = "<group>"; };
+		2BBE80D717F08055007B0E42 /* Cloneable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloneable.h; sourceTree = "<group>"; };
+		2BBE80D817F08055007B0E42 /* Cloneable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloneable.m; sourceTree = "<group>"; };
+		2BBE80DA17F092BC007B0E42 /* Paper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paper.h; sourceTree = "<group>"; };
+		2BBE80DB17F092BC007B0E42 /* Paper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paper.m; sourceTree = "<group>"; };
 		2BD097BE17C89FF7006C391A /* DoSomeThing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoSomeThing.h; sourceTree = "<group>"; };
 		2BD097BF17C89FF7006C391A /* DoSomeThing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoSomeThing.m; sourceTree = "<group>"; };
 		2BD097C017C89FF7006C391A /* DynamicProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicProxy.h; sourceTree = "<group>"; };
@@ -159,6 +262,16 @@
 		2BE8628517DE1171006CE6A6 /* SwordMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwordMan.m; sourceTree = "<group>"; };
 		2BE8628817DE1848006CE6A6 /* CompositViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositViewController.h; sourceTree = "<group>"; };
 		2BE8628917DE1848006CE6A6 /* CompositViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositViewController.m; sourceTree = "<group>"; };
+		2BFD54D317E5FF9900AD7528 /* DirectoryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryObject.h; sourceTree = "<group>"; };
+		2BFD54D417E5FF9900AD7528 /* DirectoryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryObject.m; sourceTree = "<group>"; };
+		2BFD54D617E6063400AD7528 /* FileObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileObject.h; sourceTree = "<group>"; };
+		2BFD54D717E6063400AD7528 /* FileObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileObject.m; sourceTree = "<group>"; };
+		2BFD54DA17E737F900AD7528 /* AdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapterViewController.h; sourceTree = "<group>"; };
+		2BFD54DB17E737F900AD7528 /* AdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapterViewController.m; sourceTree = "<group>"; };
+		2BFD54DD17E73CBC00AD7528 /* Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adapter.h; sourceTree = "<group>"; };
+		2BFD54DE17E73CBC00AD7528 /* Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adapter.m; sourceTree = "<group>"; };
+		2BFD54E017E73D2600AD7528 /* Adaptee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adaptee.h; sourceTree = "<group>"; };
+		2BFD54E117E73D2600AD7528 /* Adaptee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adaptee.m; sourceTree = "<group>"; };
 		86919A0517CADFE1008D0FFC /* FacadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacadeViewController.h; sourceTree = "<group>"; };
 		86919A0617CADFE1008D0FFC /* FacadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacadeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,6 +302,51 @@
 			);
 			name = TemplateMethod;
 			path = GoFTestProgram/TemplateMethod;
+			sourceTree = "<group>";
+		};
+		2B0DECE0181D3C3400748FB8 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				2B0DECE1181D3C6100748FB8 /* DecoratorViewController.h */,
+				2B0DECE2181D3C6100748FB8 /* DecoratorViewController.m */,
+				2B0DECE4181D3D7D00748FB8 /* Icecream.h */,
+				2B0DECE5181D3D7D00748FB8 /* Icecream.m */,
+				2B0DECE7181D3FA900748FB8 /* VanillaIcecream.h */,
+				2B0DECE8181D3FA900748FB8 /* VanillaIcecream.m */,
+				2B0DECEA181D402400748FB8 /* CashewNutsVanillaIcecream.h */,
+				2B0DECEB181D402400748FB8 /* CashewNutsVanillaIcecream.m */,
+			);
+			name = Decorator;
+			path = GoFTestProgram/Decorator;
+			sourceTree = "<group>";
+		};
+		2B0DECED181D5B1200748FB8 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				2B0DECEE181D5D9500748FB8 /* VisitorViewController.h */,
+				2B0DECEF181D5D9500748FB8 /* VisitorViewController.m */,
+				2B0DECF1181D5DC200748FB8 /* Teacher.h */,
+				2B0DECF2181D5DC200748FB8 /* Teacher.m */,
+				2B0DECF4181D5F0A00748FB8 /* RookieTeacher.h */,
+				2B0DECF5181D5F0A00748FB8 /* RookieTeacher.m */,
+				2B0DECF7181D605000748FB8 /* Home.h */,
+				2B0DECF8181D605000748FB8 /* Home.m */,
+				2B0DECFD181D619E00748FB8 /* TeacherAccept.h */,
+				2B0DECFE181D620100748FB8 /* SuzukiHome.h */,
+				2B0DECFF181D620100748FB8 /* SuzukiHome.m */,
+				2B0DED01181D638700748FB8 /* TanakaHome.h */,
+				2B0DED02181D638700748FB8 /* TanakaHome.m */,
+			);
+			name = Visitor;
+			path = GoFTestProgram/Visitor;
+			sourceTree = "<group>";
+		};
+		2B0DED04181D6CD800748FB8 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AbstractFactory;
+			path = GoFTestProgram/AbstractFactory;
 			sourceTree = "<group>";
 		};
 		2B1F85B81776DA7400639517 /* Observer */ = {
@@ -232,17 +390,25 @@
 			children = (
 				2B5D36381764262400AE2616 /* GoFTestProgram */,
 				2B5D365217643C5600AE2616 /* Iterator */,
-				2B1F85B81776DA7400639517 /* Observer */,
-				2B1F85B91776DA7400639517 /* Proxy */,
-				2B1F85BF1776E36300639517 /* Singleton */,
-				2B78A34117892A4F00DBC118 /* Factory */,
+				2BFD54D917E737DA00AD7528 /* Adapter */,
 				2B0346BB17A4943300107691 /* TemplateMethod */,
-				2BAA23DB17B7AD1D00B668CD /* Flyweight */,
-				2BE3080317C73EE7003AF54C /* Mediator */,
-				2B95930017CA26C80076BFAA /* Command */,
-				86919A0417CADFCA008D0FFC /* Facade */,
-				2BE8627717DE0A52006CE6A6 /* State */,
+				2B78A34117892A4F00DBC118 /* Factory */,
+				2B1F85BF1776E36300639517 /* Singleton */,
+				2BBE80D317F07FBD007B0E42 /* Prototype */,
+				2BA5EC9617F87A94009FEB15 /* Builder */,
+				2B0DED04181D6CD800748FB8 /* AbstractFactory */,
+				2BA5EC7D17F83C35009FEB15 /* Bridge */,
+				2BA5ECA617F9C75F009FEB15 /* Strategy */,
 				2BE8628717DE17D4006CE6A6 /* Composit */,
+				2B0DECE0181D3C3400748FB8 /* Decorator */,
+				2B0DECED181D5B1200748FB8 /* Visitor */,
+				86919A0417CADFCA008D0FFC /* Facade */,
+				2BE3080317C73EE7003AF54C /* Mediator */,
+				2B1F85B81776DA7400639517 /* Observer */,
+				2BE8627717DE0A52006CE6A6 /* State */,
+				2BAA23DB17B7AD1D00B668CD /* Flyweight */,
+				2B1F85B91776DA7400639517 /* Proxy */,
+				2B95930017CA26C80076BFAA /* Command */,
 				2B5D36391764262400AE2616 /* Supporting Files */,
 				2B5D36311764262400AE2616 /* Frameworks */,
 				2B5D36301764262400AE2616 /* Products */,
@@ -347,6 +513,66 @@
 			path = GoFTestProgram/Command;
 			sourceTree = "<group>";
 		};
+		2BA5EC7D17F83C35009FEB15 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				2BA5EC7E17F83C51009FEB15 /* BridgeViewController.h */,
+				2BA5EC7F17F83C51009FEB15 /* BridgeViewController.m */,
+				2BA5EC8117F872B8009FEB15 /* Material.h */,
+				2BA5EC8217F872B8009FEB15 /* Material.m */,
+				2BA5EC8417F8738A009FEB15 /* Dishware.h */,
+				2BA5EC8517F8738A009FEB15 /* Dishware.m */,
+				2BA5EC8717F8740E009FEB15 /* Wood.h */,
+				2BA5EC8817F8740E009FEB15 /* Wood.m */,
+				2BA5EC8A17F87431009FEB15 /* Glass.h */,
+				2BA5EC8B17F87431009FEB15 /* Glass.m */,
+				2BA5EC9017F8764D009FEB15 /* Plate.h */,
+				2BA5EC9117F8764D009FEB15 /* Plate.m */,
+				2BA5EC9317F87674009FEB15 /* Bowl.h */,
+				2BA5EC9417F87674009FEB15 /* Bowl.m */,
+			);
+			name = Bridge;
+			path = GoFTestProgram/Bridge;
+			sourceTree = "<group>";
+		};
+		2BA5EC9617F87A94009FEB15 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				2BA5EC9717F87AA9009FEB15 /* BuilderViewController.h */,
+				2BA5EC9817F87AA9009FEB15 /* BuilderViewController.m */,
+				2BA5ECA317F87DE5009FEB15 /* SaltWater.h */,
+				2BA5ECA417F87DE5009FEB15 /* SaltWater.m */,
+				2BA5EC9A17F87B97009FEB15 /* Builder.h */,
+				2BA5EC9B17F87B97009FEB15 /* Builder.m */,
+				2BA5EC9D17F87C0F009FEB15 /* Director.h */,
+				2BA5EC9E17F87C0F009FEB15 /* Director.m */,
+				2BA5ECA017F87DA6009FEB15 /* SaltWaterBuilder.h */,
+				2BA5ECA117F87DA6009FEB15 /* SaltWaterBuilder.m */,
+			);
+			name = Builder;
+			path = GoFTestProgram/Builder;
+			sourceTree = "<group>";
+		};
+		2BA5ECA617F9C75F009FEB15 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				2BA5ECA717F9C77A009FEB15 /* StrategyViewController.h */,
+				2BA5ECA817F9C77A009FEB15 /* StrategyViewController.m */,
+				2B0DECDD181D36B900748FB8 /* MyClass.h */,
+				2B0DECDE181D36B900748FB8 /* MyClass.m */,
+				2BA5ECAA17F9C7F8009FEB15 /* Human.h */,
+				2BA5ECAB17F9C7F8009FEB15 /* Human.m */,
+				2B0DECD7181D34E000748FB8 /* Comparetor.h */,
+				2B0DECD8181D34E000748FB8 /* Comparetor.m */,
+				2BA5ECAD17F9C9E2009FEB15 /* AgeComparator.h */,
+				2BA5ECAE17F9C9E2009FEB15 /* AgeComparator.m */,
+				2B0DECDA181D35F500748FB8 /* HeightComparetor.h */,
+				2B0DECDB181D35F500748FB8 /* HeightComparetor.m */,
+			);
+			name = Strategy;
+			path = GoFTestProgram/Strategy;
+			sourceTree = "<group>";
+		};
 		2BAA23DB17B7AD1D00B668CD /* Flyweight */ = {
 			isa = PBXGroup;
 			children = (
@@ -359,6 +585,20 @@
 			);
 			name = Flyweight;
 			path = GoFTestProgram/Flyweight;
+			sourceTree = "<group>";
+		};
+		2BBE80D317F07FBD007B0E42 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE80D417F07FCD007B0E42 /* PrototypeViewController.h */,
+				2BBE80D517F07FCD007B0E42 /* PrototypeViewController.m */,
+				2BBE80D717F08055007B0E42 /* Cloneable.h */,
+				2BBE80D817F08055007B0E42 /* Cloneable.m */,
+				2BBE80DA17F092BC007B0E42 /* Paper.h */,
+				2BBE80DB17F092BC007B0E42 /* Paper.m */,
+			);
+			name = Prototype;
+			path = GoFTestProgram/Prototype;
 			sourceTree = "<group>";
 		};
 		2BE3080317C73EE7003AF54C /* Mediator */ = {
@@ -400,9 +640,30 @@
 			children = (
 				2BE8628817DE1848006CE6A6 /* CompositViewController.h */,
 				2BE8628917DE1848006CE6A6 /* CompositViewController.m */,
+				2B0B3FCC17E5EF40000BA6F1 /* EntoryObject.h */,
+				2B0B3FCD17E5EF40000BA6F1 /* EntoryObject.m */,
+				2BFD54D317E5FF9900AD7528 /* DirectoryObject.h */,
+				2BFD54D417E5FF9900AD7528 /* DirectoryObject.m */,
+				2BFD54D617E6063400AD7528 /* FileObject.h */,
+				2BFD54D717E6063400AD7528 /* FileObject.m */,
 			);
 			name = Composit;
 			path = GoFTestProgram/Composit;
+			sourceTree = "<group>";
+		};
+		2BFD54D917E737DA00AD7528 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				2BFD54DA17E737F900AD7528 /* AdapterViewController.h */,
+				2BFD54DB17E737F900AD7528 /* AdapterViewController.m */,
+				2BBE80CB17F0760A007B0E42 /* Target.h */,
+				2BFD54DD17E73CBC00AD7528 /* Adapter.h */,
+				2BFD54DE17E73CBC00AD7528 /* Adapter.m */,
+				2BFD54E017E73D2600AD7528 /* Adaptee.h */,
+				2BFD54E117E73D2600AD7528 /* Adaptee.m */,
+			);
+			name = Adapter;
+			path = GoFTestProgram/Adapter;
 			sourceTree = "<group>";
 		};
 		86919A0417CADFCA008D0FFC /* Facade */ = {
@@ -488,47 +749,84 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0DED03181D638700748FB8 /* TanakaHome.m in Sources */,
+				2B0DECDF181D36B900748FB8 /* MyClass.m in Sources */,
 				2B95931217CA3BB50076BFAA /* CommandViewController.m in Sources */,
 				2B95931517CA47F10076BFAA /* AddSaltCommand.m in Sources */,
+				2B0DECE3181D3C6100748FB8 /* DecoratorViewController.m in Sources */,
 				2B5D363F1764262400AE2616 /* main.m in Sources */,
 				2B95930F17CA3AD40076BFAA /* MakeSaltWaterCommand.m in Sources */,
+				2B0DECF6181D5F0A00748FB8 /* RookieTeacher.m in Sources */,
 				2B5D36431764262400AE2616 /* AppDelegate.m in Sources */,
+				2BA5ECAF17F9C9E2009FEB15 /* AgeComparator.m in Sources */,
 				2B5D365A17643F7900AE2616 /* BookShelf.m in Sources */,
+				2B0DECF9181D605000748FB8 /* Home.m in Sources */,
 				2BD097C417C89FF7006C391A /* DoSomeThing.m in Sources */,
 				2B5449C017C0FA5C0006F602 /* Flyweights.m in Sources */,
 				2B5D365D176440F800AE2616 /* Book.m in Sources */,
+				2B0B3FCE17E5EF40000BA6F1 /* EntoryObject.m in Sources */,
 				2B78B0CC17C88B38000A647F /* Collegue.m in Sources */,
+				2B0DECF0181D5D9500748FB8 /* VisitorViewController.m in Sources */,
 				2B5D366017644CAF00AE2616 /* BookShelfEnumerator.m in Sources */,
 				2B78B0C917C88B14000A647F /* Mediator.m in Sources */,
 				2B78B0CF17C8900E000A647F /* APatternCollegue.m in Sources */,
+				2BA5EC8617F8738A009FEB15 /* Dishware.m in Sources */,
+				2BFD54D817E6063400AD7528 /* FileObject.m in Sources */,
 				2B95930C17CA3A390076BFAA /* AddWaterrCommand.m in Sources */,
+				2BFD54DC17E737F900AD7528 /* AdapterViewController.m in Sources */,
+				2BA5EC9C17F87B97009FEB15 /* Builder.m in Sources */,
+				2BBE80D617F07FCD007B0E42 /* PrototypeViewController.m in Sources */,
 				2B1F85B71776D96000639517 /* IteratorViewController.m in Sources */,
 				2B5449C617C0FF8C0006F602 /* FlyweightViewController.m in Sources */,
 				2B1F85BD1776DAE900639517 /* ObserverViewController.m in Sources */,
+				2BA5EC8917F8740E009FEB15 /* Wood.m in Sources */,
 				2B78B0C617C88951000A647F /* MediatorViewController.m in Sources */,
+				2BA5ECA517F87DE5009FEB15 /* SaltWater.m in Sources */,
+				2BA5EC9217F8764D009FEB15 /* Plate.m in Sources */,
+				2BA5EC9517F87674009FEB15 /* Bowl.m in Sources */,
 				2B1F85C31776E3E400639517 /* SingletonViewController.m in Sources */,
+				2BA5EC8C17F87431009FEB15 /* Glass.m in Sources */,
 				2B1F85C71776E4AB00639517 /* SingletonObject.m in Sources */,
 				2B78A34E17892A4F00DBC118 /* ConcreateCreater.m in Sources */,
 				2B95930317CA27F80076BFAA /* Command.m in Sources */,
 				2BD097C517C89FF7006C391A /* DynamicProxy.m in Sources */,
+				2BA5EC9F17F87C0F009FEB15 /* Director.m in Sources */,
 				2B95930617CA28340076BFAA /* Beaker.m in Sources */,
 				2B78A34F17892A4F00DBC118 /* Creator.m in Sources */,
 				2B78A35017892A4F00DBC118 /* FactoryViewController.m in Sources */,
 				2B78A35117892A4F00DBC118 /* Product.m in Sources */,
+				2BFD54D517E5FF9900AD7528 /* DirectoryObject.m in Sources */,
 				2BD097C617C89FF7006C391A /* ProxyViewController.m in Sources */,
 				2B78A35217892A4F00DBC118 /* ProductA.m in Sources */,
 				2B78A35317892A4F00DBC118 /* ProductB.m in Sources */,
+				2B0DECE6181D3D7D00748FB8 /* Icecream.m in Sources */,
+				2B0DECE9181D3FA900748FB8 /* VanillaIcecream.m in Sources */,
+				2B0DED00181D620100748FB8 /* SuzukiHome.m in Sources */,
 				2B0346BE17A4948B00107691 /* TemplateMethodViewController.m in Sources */,
+				2BA5EC8317F872B8009FEB15 /* Material.m in Sources */,
+				2BBE80DC17F092BC007B0E42 /* Paper.m in Sources */,
+				2BA5ECA917F9C77A009FEB15 /* StrategyViewController.m in Sources */,
 				2B5449C317C0FB100006F602 /* ColorPallet.m in Sources */,
+				2BA5EC8017F83C51009FEB15 /* BridgeViewController.m in Sources */,
+				2B0DECDC181D35F500748FB8 /* HeightComparetor.m in Sources */,
 				2B0346C117A49B6300107691 /* Life.m in Sources */,
 				2B0346C417A49C0C00107691 /* GoodLife.m in Sources */,
 				86919A0717CADFE1008D0FFC /* FacadeViewController.m in Sources */,
+				2BA5EC9917F87AA9009FEB15 /* BuilderViewController.m in Sources */,
+				2B0DECF3181D5DC200748FB8 /* Teacher.m in Sources */,
 				2BE8626D17DDEC6A006CE6A6 /* Facade.m in Sources */,
+				2BA5ECA217F87DA6009FEB15 /* SaltWaterBuilder.m in Sources */,
 				2BE8627017DDEC80006CE6A6 /* SubSystemA.m in Sources */,
+				2BBE80D917F08055007B0E42 /* Cloneable.m in Sources */,
 				2BE8627317DDEC8D006CE6A6 /* SubSystemB.m in Sources */,
+				2BFD54E217E73D2600AD7528 /* Adaptee.m in Sources */,
+				2BA5ECAC17F9C7F8009FEB15 /* Human.m in Sources */,
 				2BE8627617DDEC97006CE6A6 /* SubSystemC.m in Sources */,
 				2BE8627A17DE0A5F006CE6A6 /* StateViewController.m in Sources */,
 				2BE8627D17DE0B8F006CE6A6 /* State.m in Sources */,
+				2BFD54DF17E73CBC00AD7528 /* Adapter.m in Sources */,
+				2B0DECD9181D34E000748FB8 /* Comparetor.m in Sources */,
+				2B0DECEC181D402400748FB8 /* CashewNutsVanillaIcecream.m in Sources */,
 				2BE8628017DE1028006CE6A6 /* DefaultSkillState.m in Sources */,
 				2BE8628317DE10DE006CE6A6 /* HighclassSkillState.m in Sources */,
 				2BE8628617DE1171006CE6A6 /* SwordMan.m in Sources */,

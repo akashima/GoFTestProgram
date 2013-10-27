@@ -18,6 +18,15 @@
 #import "CommandViewController.h"
 #import "FacadeViewController.h"
 #import "StateViewController.h"
+#import "CompositViewController.h"
+#import "AdapterViewController.h"
+#import "PrototypeViewController.h"
+#import "BridgeViewController.h"
+#import "BuilderViewController.h"
+#import "StrategyViewController.h"
+#import "DecoratorViewController.h"
+#import "VisitorViewController.h"
+
 
 
 @implementation AppDelegate
@@ -44,7 +53,15 @@
 //	MediatorViewController *viewController = [[MediatorViewController alloc] init];
 //	CommandViewController *viewController = [[CommandViewController alloc] init];
 //	FacadeViewController *viewController = [[FacadeViewController alloc] init];
-	StateViewController *viewController = [[StateViewController alloc] init];
+//	StateViewController *viewController = [[StateViewController alloc] init];
+//	CompositViewController *viewController = [[CompositViewController alloc] init];
+//	AdapterViewController *viewController = [[AdapterViewController alloc] init];
+//	PrototypeViewController *viewController = [[PrototypeViewController alloc] init];
+//	BridgeViewController *viewController = [[BridgeViewController alloc] init];
+//	BuilderViewController *viewController = [[BuilderViewController alloc] init];
+//	StrategyViewController *viewController = [[StrategyViewController alloc] init];
+//	DecoratorViewController *viewController = [[DecoratorViewController alloc] init];
+	VisitorViewController *viewController = [[VisitorViewController alloc] init];
 
 	[_window setRootViewController:viewController];
 	[viewController.view setFrame:CGRectMake(0, 0, [[UIScreen mainScreen] applicationFrame].size.width, [[UIScreen mainScreen] applicationFrame].size.height)];
